@@ -1,4 +1,4 @@
-import css from './FriendList.css'
+import './FriendList.css'
 
 export const FriendList = ({ friends }) => {
     return(
