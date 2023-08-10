@@ -4,8 +4,8 @@ import { App } from 'components/App';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BrowserRouter basename="/your_repo_name/">
-      <App />
-    </BrowserRouter>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
